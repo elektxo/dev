@@ -68,7 +68,7 @@ body {
 
 #leftpanel{
 	float: left;
-	border: 3px white solid;
+	border: 3px #aaaaaa solid;
 	border-radius: 5px;
 	width: 18%;
 	padding: 10px;
@@ -86,12 +86,12 @@ body {
 	float: left;
 	width: 56%;
 	background: black;
-	border: 3px white solid;
+	border: 3px #aaaaaa solid;
 	border-radius: 5px;
 }
 
 #rightpanel{
-	border: 3px white solid;
+	border: 3px #aaaaaa solid;
 	border-radius: 5px;
 	float: right;
 	width: 18%;
@@ -99,4 +99,17 @@ body {
 	margin-left: 2%;
 	background: black;
 	padding:10px;
+}
+
+a{
+	display: block;
+	padding: 15px 20px;
+	color: #827c7c;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #A5FF5B;
+	transition: all .3s;
 }
